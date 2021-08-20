@@ -1,0 +1,17 @@
+default: &default
+  splunk_search_url: https://api.splunk.com
+
+
+local:
+  <<: *default
+
+test:
+  <<: *default
+
+development:
+  <<: *default
+
+production:
+  splunk_search_url: https://api.splunk.com
+
+

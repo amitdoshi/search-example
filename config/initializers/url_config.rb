@@ -1,0 +1,1 @@
+URLS = Rails.application.config_for(:urls).symbolize_keys
